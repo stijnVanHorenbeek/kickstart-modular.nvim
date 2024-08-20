@@ -63,4 +63,11 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 vim.opt.colorcolumn = '80'
+
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
+vim.o.smarttab = true
+vim.o.autoindent = true
+
 -- vim: ts=2 sts=2 sw=2 et
